@@ -23,8 +23,7 @@ public class Detective {
 
 	public static void main(String[] args) {
 
-		//ここに変数を記述する。
-
+		int gasolin = 10;//ここに変数を記述する
 
 		System.out.println("探偵：");
 		System.out.println("では早速出かけよう\n");
@@ -34,6 +33,10 @@ public class Detective {
 		//ここにif文を記述する。
 		//変数gasolinが10以上であるときにガソリンが足りているものとします。
 
+		if (10 <= gasolin) {
+			System.out.println("あ、やっぱり足りてました");
+
+		}
 
 	}
 
